@@ -8,6 +8,8 @@
 
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git small https://github.com/tujj99/small.git' feeds.conf.default
+sed -i '$a src-git tujj99 https://github.com/tujj99/openwrt-packages' feeds.conf.default
 
 # other
 # rm -rf package/utils/{ucode,fbtest}
